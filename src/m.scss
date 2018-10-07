@@ -1,8 +1,13 @@
 @import './c.scss';
 
 @font-face {
-  font-family: GT;
-  src: url("./../static/fonts/Gotham-Thin.otf");
+  font-family: HN;
+  src: url("./../static/fonts/Helvetica-Neue.ttf");
+}
+
+@font-face {
+  font-family: MP;
+  src: url("./../static/fonts/MyriadPro-Regular.otf");
 }
 
 *,
@@ -24,7 +29,8 @@ body {
 body {
   background-color: #fff;
   color: #fff;
-  font-family: GT, Arial, Helvetica, sans-serif;
+  font-family: MP, HN, Helvetica, sans-serif;
+  font-weight: lighter;
   font-size: 15pt;
   font-weight: 300 !important;
   letter-spacing: -0.015em;
