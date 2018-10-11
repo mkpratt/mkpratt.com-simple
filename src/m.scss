@@ -24,6 +24,7 @@ body {
   width: 100vw;
   overflow: hidden;
   margin: 0;
+
 }
 
 body {
@@ -62,6 +63,16 @@ a {
   }
 }
 
+.linkedin {
+  background-image: url("../static/images/linkedin.png");
+}
+.github {
+  background-image: url("../static/images/github.png");
+}
+.email {
+  background-image: url("../static/images/email.png");
+}
+
 .soft-shadow {
   text-shadow: rgba(2, 2, 2, 0.1) 0em 0.05em 0.075em;
 }
@@ -79,12 +90,17 @@ a {
 }
 
 #g {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
   will-change: background;
 }
 
-.icon {
+.i {
+  height: 64px;
+  width: 64px;
   text-decoration: none;
   position: relative;
 
@@ -674,10 +690,6 @@ a {
 
     #header nav a:active {
       font-size: 1em;
-    }
-
-    #footer {
-      bottom: auto;
     }
   }
 
